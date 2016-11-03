@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zane.mycookook.SignUpActivity">
+
+    <TextView
+        android:text="Create Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/titleTV"
+        android:textStyle="normal|bold"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="44dp"
+        android:id="@+id/usernameTV"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/titleTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Enter Username"
+        android:ems="10"
+        android:id="@+id/usernameET"
+        android:layout_alignBaseline="@+id/usernameTV"
+        android:layout_alignBottom="@+id/usernameTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameET"
+        android:layout_alignLeft="@+id/usernameTV"
+        android:layout_alignStart="@+id/usernameTV"
+        android:layout_marginTop="30dp"
+        android:id="@+id/passwordTV"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password1ET"
+        android:layout_alignBaseline="@+id/passwordTV"
+        android:layout_alignBottom="@+id/passwordTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="password" />
+
+    <TextView
+        android:text="Confirm Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordCTV"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/passwordTV"
+        android:layout_alignStart="@+id/passwordTV"
+        android:layout_alignRight="@+id/usernameTV"
+        android:layout_alignEnd="@+id/usernameTV" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password2ET"
+        android:layout_alignBottom="@+id/passwordCTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="password" />
+
+    <Button
+        android:text="Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:id="@+id/createButton" />
+
+</RelativeLayout>
