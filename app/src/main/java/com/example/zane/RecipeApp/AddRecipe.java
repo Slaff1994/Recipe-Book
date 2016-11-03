@@ -1,4 +1,4 @@
-package com.example.zane.mycookook;
+package com.example.zane.RecipeApp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

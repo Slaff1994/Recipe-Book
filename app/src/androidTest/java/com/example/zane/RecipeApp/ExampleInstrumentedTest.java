@@ -1,4 +1,4 @@
-package com.example.zane.mycookook;
+package com.example.zane.RecipeApp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

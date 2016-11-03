@@ -1,8 +1,7 @@
-package com.example.zane.mycookook;
+package com.example.zane.RecipeApp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.LinearLayout;
 
 public class ViewRecipe extends AppCompatActivity {
 
