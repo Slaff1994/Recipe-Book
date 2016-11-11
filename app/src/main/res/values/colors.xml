@@ -6,4 +6,7 @@
     <color name="white">#ffffff</color>
     <color name="shadowColor">#111111</color>
     <color name="background">#d95e</color>
+    <color name="black">#000000</color>
+    <color name="gray">#545454</color>
+    <color name="green">#00ff00</color>
 </resources>

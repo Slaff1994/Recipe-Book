@@ -8,32 +8,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/background"
+
     tools:context="com.example.zane.RecipeApp.Home">
 
     <Button
-        android:text=""
+        android:text="Help"
         style="@style/HomeButtonStyle"
-        android:background="@drawable/help"
         android:layout_below="@+id/addButton"
         android:layout_alignStart="@+id/addButton"
         android:layout_marginTop="43dp"
+        android:paddingLeft="50sp"
         android:id="@+id/helpButton" />
 
     <Button
-        android:text=""
+        android:text="Add Recipes"
         style="@style/HomeButtonStyle"
         android:layout_marginTop="47dp"
-        android:background="@drawable/recipecard"
+        android:paddingLeft="45sp"
         android:id="@+id/addButton"
         android:layout_below="@+id/viewButton"
         android:layout_alignStart="@+id/viewButton" />
 
     <Button
-        android:text=""
+        android:text="View Recipes"
         style="@style/HomeButtonStyle"
         android:id="@+id/viewButton"
-
+        android:paddingRight="23sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

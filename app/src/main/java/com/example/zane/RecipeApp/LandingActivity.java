@@ -9,6 +9,7 @@ import android.widget.Button;
 public class LandingActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button signUp;
+    private Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,8 +17,10 @@ public class LandingActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_landing);
 
         signUp = (Button) findViewById(R.id.signUpButton);
+        login = (Button) findViewById(R.id.loginButton);
 
         signUp.setOnClickListener(this);
+        login.setOnClickListener(this);
     }
 
     public void onClick(View v){
@@ -26,7 +29,8 @@ public class LandingActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
                 break;
             case R.id.loginButton:
-                //Insert Code Here
+                startActivity(new Intent(getApplicationContext(), Home.class));
+                break;
         }
     }
 }
